@@ -1,0 +1,60 @@
+body {
+    background-color: #dddddd !important;
+}
+
+ul {
+    position: absolute;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    z-index: 99;
+}
+#result ul li {
+    padding: 5px 0;
+    background: white;
+}
+#result ul li:hover {
+    background: #eee;
+}
+#pagination {
+    text-align: center;
+}
+#paginationPrecip {
+    text-align: center;
+}
+
+th, 
+td { 
+    padding: 10px; 
+    height: 41px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.noStress {
+    background-color: #cee2f5 !important;
+}
+.light {
+    background-color: #fef6e1 !important;
+}
+.moderate {
+    background-color: #fec001 !important;
+}
+.heavy {
+    background-color: #fe7f02 !important;
+}
+.severe {
+    background-color: #fe0000 !important;
+}
+.deadly {
+    background-color: #990100 !important;
+}
+
+.card {
+    /* border: 1px solid black !important; */
+    border-radius: 15px !important;
+    border-spacing: 0 !important;
+} 
+
